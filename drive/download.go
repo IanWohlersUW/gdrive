@@ -35,7 +35,7 @@ func (self *Drive) Download(args DownloadArgs) error {
 	}
 
 	if isDir(f) {
-		return fmt.Errorf("'%s' is a directory, use --recursive to download directories", f.Name)
+		return fmt.Errorf("'%s' is a directory, TEST TEST TEST TEST use --recursive to download directories", f.Name)
 	}
 
 	if !isBinary(f) {
